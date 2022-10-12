@@ -1,0 +1,13 @@
+
+body
+{
+    background-color: #FEFEFE;
+}
+
+#bg
+{
+    background-color: #FEFEFE;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
