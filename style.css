@@ -54,15 +54,26 @@ body
 #labs
 {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 10%;
+    opacity: 0;
 }
 
-a {
-    background-image: linear-gradient( to right, #54b3d6, #54b3d6 50%, #000 50%);
+#labs ul
+{
+    margin-left: 40px;
+    list-style: none;
+}
+
+a
+{
+    background-image: linear-gradient( to right, #30D5C8, #54b3d6 50%, #fff 50%);
     background-size: 200% 100%;
     background-position: 100%;   
 
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 20px;
     position: relative;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -70,5 +81,48 @@ a {
   }
   
   a:hover {
-   background-position: -20%;
+   background-position: 0%;
   }
+
+.gg {
+    display: flex;
+    height: 14px;
+    margin-bottom: 11px
+}
+
+.gg div
+{
+    margin-right: 10px;
+}
+
+.gg0 {
+    width: 14px;
+}
+
+.gg1 {
+    width: 28px;
+}
+
+.gg2 {
+    width: 56px;
+}
+
+.gg3 {
+    width: 84px;
+}
+
+.gg4 {
+    width: 112px;
+}
+
+.gg5 {
+    width: 140px;
+}
+
+.gg6 {
+    width: 168px;
+}
+
+.gg7 {
+    width: 196px;
+}
