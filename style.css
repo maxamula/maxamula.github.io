@@ -58,3 +58,17 @@ body
     left: 10%;
 }
 
+a {
+    background-image: linear-gradient( to right, #54b3d6, #54b3d6 50%, #000 50%);
+    background-size: 200% 100%;
+    background-position: 100%;   
+
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  a:hover {
+   background-position: -20%;
+  }

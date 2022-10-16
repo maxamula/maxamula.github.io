@@ -1,7 +1,7 @@
 import * as THREE from './three.module.js';
 import { OrbitControls } from 'https://cdn.skypack.dev/three@0.132.2/examples/jsm/controls/OrbitControls';
 import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.132.2/examples/jsm/loaders/GLTFLoader';
-import * as GSAP from './node_modules/gsap/all.js';
+import * as GSAP from './gsap/all.js';
 
 var projIndex = 0;
 var model;
@@ -82,7 +82,7 @@ animate();
 var button = document.getElementById("go");
 var hero = document.getElementById("hero_header");
 var c1 = document.getElementById("c1");
-var c2 = document.getElementById("hero_header");
+var labs = document.getElementById("labs");
 button.addEventListener('click', onExploreBtnClick, false );
 function onExploreBtnClick()
 {
@@ -92,7 +92,11 @@ function onExploreBtnClick()
   GSAP.gsap.to(camera.rotation, {x:0, duration: 2, ease: GSAP.Power2.easeInOut });
   GSAP.gsap.to(camera.position, {x:0.3, duration: 2, ease: GSAP.Power2.easeInOut });
   // Text anim
-  GSAP.gsap.to(c1, {opacity:0, duration: 0.5, ease: GSAP.Power2, onComplete: function(){c1.hidden = true;} } );
+  GSAP.gsap.to(c1, {opacity:0, duration: 0.5, ease: GSAP.Power2, onComplete: function(){
+    c1.hidden = true;
+    labs.hidden = false;
+    GSAP.gsap.to(labs, {opacity:1, duration: 1, ease: GSAP.Power2});
+  } } );
   // remove old/add new components
   //document.removeChild(hero.nodeValue);
   //GSAP.gsap.to(camera.position, {x:12.3, duration: 2, ease: GSAP.Power2.easeInOut }, 8);
