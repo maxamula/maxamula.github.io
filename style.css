@@ -54,9 +54,10 @@ body
 #labs
 {
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: 10%;
     opacity: 0;
+    transform: translateY(-50%);
 }
 
 #labs ul

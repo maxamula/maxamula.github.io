@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+ <head>
+  <meta content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="lab1.css">
+  <title>Lab2</title>
+ </head>
+ <body style="margin: 0; padding:0;">
+<h2 style="white-space: nowrap; text-align: center;">Лабораторна робота №2 Кривенко Олександр ТР-13</h2>
+<header style="border: 4px solid black; background-color: white; z-index: 10; position: sticky; top:0; left:0; padding: 10px; width:100%; display: flex; justify-content:space-evenly;">
+    <a style="text-decoration: none;" href="#">Форма реєстрації</a>
+    <a style="text-decoration: none;" href="#">Форма входу</a>
+    <a style="text-decoration: none;" href="#">Форма зворотнього зв'язку</a>
+</header>   
+<section>
+        <div style="display: flex;">
+            <div style="width: 60%;">
+                <p><img src="https://i.pinimg.com/236x/9d/fc/dc/9dfcdc098ba899f6b78b67ae2bad1929.jpg"
+                     alt="img1" width="200" height="300" style="float:left; margin: 7px 7px 7px 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar mattis nunc sed blandit libero volutpat. Dignissim enim sit amet venenatis. Viverra aliquet eget sit amet tellus cras adipiscing. Sapien et ligula ullamcorper malesuada proin. Nam libero justo laoreet sit amet cursus sit amet dictum. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Ac tortor vitae purus faucibus ornare suspendisse. Molestie nunc non blandit massa enim nec dui nunc mattis. Quis blandit turpis cursus in. Tincidunt augue interdum velit euismod. Eget egestas purus viverra accumsan in nisl nisi. Quam adipiscing vitae proin sagittis nisl. Lectus urna duis convallis convallis tellus id interdum velit laoreet. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Tristique et egestas quis ipsum suspendisse ultrices gravida.
+                     At lectus urna duis convallis convallis. Id leo in vitae turpis. Adipiscing enim eu turpis egestas pretium.</p><img src="https://i.pinimg.com/236x/9d/fc/dc/9dfcdc098ba899f6b78b67ae2bad1929.jpg"
+                     alt="img1" width="200" height="300" style="float:right; margin: 7px 7px 7px 0;"><p>Vitae tortor condimentum lacinia quis vel eros donec ac. Rhoncus est pellentesque elit ullamcorper dignissim cras. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Eu ultrices vitae auctor eu augue ut lectus arcu bibendum. Volutpat commodo sed egestas egestas fringilla phasellus. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. Pharetra convallis posuere morbi leo urna.
+                    </p><img src="https://i.pinimg.com/236x/9d/fc/dc/9dfcdc098ba899f6b78b67ae2bad1929.jpg"alt="img1" width="200" height="300" style="float:none; margin: 7px 7px 7px 0;">
+            </div>
+            <div style="width: 40%; position: relative;">
+                <img style="position: absolute; top:25%; left:50%; transform: translate(-50%, -50%);" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRojhU-eRBRVA8dq09x4w0xmdayU2ZhCmg8j-idpTEO2J6hLJdfcUwmgHbFy3i5tK7ub0&usqp=CAU">
+                <img style="position: absolute; top:25%; left:50%; transform: translate(calc(-50% + 50px), calc(-50% + 50px));" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRojhU-eRBRVA8dq09x4w0xmdayU2ZhCmg8j-idpTEO2J6hLJdfcUwmgHbFy3i5tK7ub0&usqp=CAU">
+                <img style="position: absolute; top:25%; left:50%; transform: translate(calc(-50% + 100px), calc(-50% + 100px));" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRojhU-eRBRVA8dq09x4w0xmdayU2ZhCmg8j-idpTEO2J6hLJdfcUwmgHbFy3i5tK7ub0&usqp=CAU">
+            </div>
+        </div>
+    </section>
+    <section style="background: rgb(187,222,251);">
+        <form style="display: flex;">
+        <div style="display: inline-block; width: 50%;">
+            <div style="width: 70%; padding: 30px; margin-left: 50%; transform: translateX(-50%);">
+                <img style="margin-bottom: 30px; margin-left: 50%; transform: translateX(-50%); height: 150px; width: 150px; border-radius: 200px;" src="https://i.scdn.co/image/ab67616d0000b273936fcab0de3971d166abd10b">
+            <div style="margin-left: 50%; transform: translateX(-50%);">
+                <label for="name">Ім'я</label>
+                <input name="name" style="width: 100%; margin-bottom: 15px;">
+                <label for="surname">Прізвище</label>
+                <input name="surname" style="width: 100%; margin-bottom: 15px;">
+                <p style="margin: 0;"><b>Стать</b></p>
+                <fieldset>
+                <input type="radio" name="male">
+                <label for="male">Чоловіча</label>
+                <input type="radio" name="female">
+                <label for="female">Жіноча</label>
+                </fieldset>
+                <label for="age">Вік</label>
+                <input style="margin-bottom: 10px; width: 100px; display: block;" value="18" type="number" name="age" min="10" max="100">
+                <div style="display: flex">
+                    <label style="margin: 10px;" for="date">Дата</label>
+                    <input type="date" name="calendar">
+                </div>
+            </div>
+            </div>
+        </div>
+        <div style="display: inline-block; width: 50%;">
+            <div style="margin-left: 50%; padding: 30px; transform: translateX(-50%);">
+                <p style=" margin:0; width: 100%;"><b>Країна проживання</b></p>
+                <select style="margin-bottom: 10px;" name="select">
+                    <option value="value1">Україна</option>
+                    <option value="value2" selected>Німеччина</option>
+                    <option value="value3">Польша</option>
+                  </select>
+                <label for="tel">Телефон</label>
+                <input name="tel" type="tel" pattern="+380[0-9]{9}" style="width: 100%; margin-bottom: 15px;">
+                <label for="email">Email</label>
+                <input type="email" name="email" style="width: 100%; margin-bottom: 15px;">
+                <label for="social">Соцмережа</label>
+                <input name="social" style="width: 100%; margin-bottom: 15px;">
+                <label for="pass">Пароль</label>
+                <input type="password" name="pass" style="width: 100%; margin-bottom: 15px;">
+                <label style="display: inline;" for="eula">Чи згідні Ви з умовами?</label>
+                <input style="display: inline;" type="checkbox" name="eula" style="width: 100%; margin-bottom: 15px;">
+                <div style="display: flex; justify-content: space-around; margin-top: 15px;">
+                    <button>Зареєструватися</button>
+                    <button>Відміна</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </form> 
+    </section>
+    <section style="display: flex; justify-content:center; align-items:center">
+        <div style="width: 50%; padding: 10px; background-color: #C4E1A4;">
+            <h2 style="text-align:center">Форма входу</h2>
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <label for="login">Логін</label>
+                <input name="login" style="width: 50%; margin-bottom: 15px;">
+                <label for="pass1">Пароль</label>
+                <input type="password" name="pass1" style="width: 50%; margin-bottom: 15px;">
+                <button>Увійти</button>
+            </div>
+        </div>
+    </section>
+</section>
+<section style="display: flex; background-color: #FFF59D; width: 100%; height: 100vh; justify-content:center; align-items:center">
+    <form style="display: flex; justify-content: center;">
+        <div style="width: 70%; display: flex;">
+            <div style = "margin-right: 50px;">
+                <label for="name">Ім'я</label>
+                <input name="name" style="width: 100%; margin-bottom: 15px;">
+                <label for="mail">Пошта</label>
+                <input name="mail" style="width: 100%; margin-bottom: 15px;">
+                <select name="select" style = "display: block; width: 100%; text-align: center; margin-left: auto; margin-right: auto;"> 
+                    <option value="value1">Lorem</option>
+                    <option value="value2" selected>Ipsum</option>
+                    <option value="value3">Option 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="tf">Повідомлення</label>
+                <textarea name="tf" style="width: 100%; height: 100%;"></textarea>
+            </div>
+        </div>      
+    </form> 
+</section>
+ </body>
